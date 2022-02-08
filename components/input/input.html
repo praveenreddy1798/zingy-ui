@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../utils.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Input</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <nav class="navbar pd-xsm">
+            <ul class="flex-between">
+                <div class="nav-left flex-evenly">
+                    <a href="/home/index.html">
+                        <li>Zingy UI</li>
+                    </a>
+                    <a href="/components/avatar/avatar.html">
+                        <li>Docs</li>
+                    </a>
+                </div>
+                <div class="nav-right flex-evenly">
+                    <a href="https://github.com/praveenreddy1798"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/praveen1798"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/praveen-kumar-d-06b545168/"><i class="fa fa-linkedin fa-2x"
+                            aria-hidden="true"></i></a>|
+                </div>
+                <div class="mobile-menu flex-evenly align-center">
+                    <button class="btn hamburger mobile-item bg-primary white-color"><i
+                            class="fa fa-bars fa-2x h-100"></i></button>
+                    <button class="btn hamburger-close mobile-item bg-primary white-color"><i
+                            class="fa fa-close fa-2x h-100"></i></button>
+                </div>
+            </ul>
+        </nav>
+        <div class="sidebar">
+            <ul class="sidebar-items flex-vertical">
+                <a href="/components/avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="/components/alerts/alerts.html">
+                    <li>Alerts</li>
+                </a>
+                <a href="/components/badges/badges.html">
+                    <li>Badges</li>
+                </a>
+                <a href="/components/buttons/buttons.html">
+                    <li>Buttons</li>
+                </a>
+                <a href="/components/cards/cards.html">
+                    <li>Cards</li>
+                </a>
+                <a href="/components/responsive-images/responsive-images.html">
+                    <li>Responsive Images</li>
+                </a>
+                <a class="active-sidebar-item" href="/components/input/input.html">
+                    <li>Input</li>
+                </a>
+            </ul>
+        </div>
+        <main class="main-section mg-md">
+            <h1>Input</h1>
+            <h3 class="mg-t-xsm">
+                Text Input
+            </h3>
+            <div class="flex-evenly mg-lg">
+                <div>
+                    <h4 class="regular-dark black-color mg-b-xxsm">Input Label</h4>
+                    <input class="input br-s" type="text" placeholder="Placeholder">
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/myDE6WqG5jcs2RaH2PJJ"
+                    style="width: 100%; height: 192px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="mg-t-xsm">
+                Text Input Focus Variants
+            </h3>
+            <div class="flex-evenly mg-lg">
+                <div class="flex-vertical row-gap-1">
+                    <!-- Regular Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Regular</h4>
+                        <input class="input br-s" type="text" placeholder="Placeholder">
+                    </div>
+
+                    <!-- Primary Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Primary</h4>
+                        <input class="input input-primary br-s" type="text" placeholder="Placeholder">
+                    </div>
+
+                    <!-- Secondary Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Secondary</h4>
+                        <input class="input input-secondary br-s" type="text" placeholder="Placeholder">
+                    </div>
+
+                    <!-- Success Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Success</h4>
+                        <input class="input input-success br-s" type="text" placeholder="Placeholder">
+                    </div>
+
+                    <!-- Warning Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Warning</h4>
+                        <input class="input input-warning br-s" type="text" placeholder="Placeholder">
+                    </div>
+
+                    <!-- Danger Input on focus -->
+                    <div>
+                        <h4 class="regular-dark black-color mg-b-xxsm">Danger</h4>
+                        <input class="input input-danger br-s" type="text" placeholder="Placeholder">
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/FYdWhcNrYtFAsE9oWo5C"
+                    style="width: 100%; height: 870px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">
+                Text Input with Validation and Error Message
+            </h3>
+            <div class="flex-evenly mg-lg">
+                <div>
+                    <h4 class="regular-dark black-color mg-b-xxsm">Input Label</h4>
+                    <input class="input input-danger-border br-s" type="text" placeholder="Placeholder">
+                    <h4 class="regular-dark danger-color mg-t-xxsm">Error Message</h4>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/c5Cr3c215kNbP21AcYYB"
+                    style="width: 100%; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">
+                Radio
+            </h3>
+            <div class="flex-evenly mg-lg">
+                <div class="flex-vertical row-gap-1">
+                    <label htmlFor="rating">
+                        <input class="mg-r-sm" type="radio" name="rating" value="5 stars & above" />
+                        5 stars & above
+                    </label>
+                    <label htmlFor="rating">
+                        <input class="mg-r-sm" type="radio" name="rating" value="4 stars & above" />
+                        4 stars & above
+                    </label>
+                    <label htmlFor="rating">
+                        <input class="mg-r-sm" type="radio" name="rating" value="3 star & above" />
+                        3 star & above
+                    </label>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/ja47AcTYZ23RxRC304GN"
+                    style="width: 100%; height: 367px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">
+                Checkbox
+            </h3>
+            <div class="flex-evenly mg-lg">
+                <div class="flex-vertical row-gap-1">
+                    <label htmlFor="gender">
+                        <input class="mg-r-sm" type="checkbox" name="gender" value="Men" />
+                        Men
+                    </label>
+                    <label htmlFor="gender">
+                        <input class="mg-r-sm" type="checkbox" name="gender" value="Women" />
+                        Women
+                    </label>
+                    <label htmlFor="gender">
+                        <input class="mg-r-sm" type="checkbox" name="gender" value="Others" />
+                        Others
+                    </label>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/2a5JpxiPp945m6VNNOIB"
+                    style="width: 100%; height: 367px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+    <script src='../../index.js'></script>
+</body>
+
+</html>
