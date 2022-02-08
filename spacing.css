@@ -1,0 +1,138 @@
+/* margin-spacing */
+
+.mg-xxsm {
+  margin: 0.25rem;
+}
+
+.mg-xsm {
+  margin: 0.5rem;
+}
+
+.mg-sm {
+  margin: 1rem;
+}
+
+.mg-md {
+  margin: 1.5rem;
+}
+
+.mg-lg {
+  margin: 2rem;
+}
+
+.mg-xlg {
+  margin: 2.5rem;
+}
+
+.mg-xxlg {
+  margin: 4rem;
+}
+
+/* margin-bottom spacing */
+
+.mg-b-xxsm {
+  margin-bottom: 0.25rem;
+}
+
+.mg-b-xsm {
+  margin-bottom: 0.5rem;
+}
+
+.mg-b-sm {
+  margin-bottom: 1rem;
+}
+
+.mg-b-md {
+  margin-bottom: 1.5rem;
+}
+
+.mg-b-lg {
+  margin-bottom: 2rem;
+}
+
+.mg-b-xlg {
+  margin-bottom: 2.5rem;
+}
+
+.mg-b-xxlg {
+  margin-bottom: 4rem;
+}
+
+/* margin-top spacing */
+
+.mg-t-xxsm {
+  margin-top: 0.25rem;
+}
+
+.mg-t-xsm {
+  margin-top: 0.5rem;
+}
+
+.mg-t-sm {
+  margin-top: 1rem;
+}
+
+.mg-t-md {
+  margin-top: 1.5rem;
+}
+
+.mg-t-lg {
+  margin-top: 2rem;
+}
+
+.mg-t-xlg {
+  margin-top: 2.5rem;
+}
+
+.mg-t-xxlg {
+  margin-top: 4rem;
+}
+
+/* margin-right spacing */
+
+.mg-r-xsm {
+  margin-right: 0.5rem;
+}
+
+.mg-r-sm {
+  margin-right: 1rem;
+}
+
+/* margin-left spacing */
+
+.mg-l-xsm {
+  margin-left: 0.5rem;
+}
+
+.mg-l-sm {
+  margin-left: 1rem;
+}
+
+/* padding-spacing */
+
+.pd-xxsm {
+  padding: 0.25rem;
+}
+.pd-xsm {
+  padding: 0.5rem;
+}
+
+.pd-sm {
+  padding: 1rem;
+}
+
+.pd-md {
+  padding: 1.5rem;
+}
+
+.pd-lg {
+  padding: 2rem;
+}
+
+.pd-xlg {
+  padding: 2.5rem;
+}
+
+.pd-xxlg {
+  padding: 4rem;
+}

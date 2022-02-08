@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+/* responsiveness for image, video and iframe */
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 2/2;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+}
