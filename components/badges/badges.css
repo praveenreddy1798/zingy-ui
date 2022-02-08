@@ -1,0 +1,51 @@
+.badge-container {
+  position: relative;
+}
+
+.badge-container span {
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+}
+
+.avatar-badge {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-badge span {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.325rem;
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  font-size: 0.75rem;
+}
+
+.icon-badge {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-badge span {
+  font-size: 0.675rem;
+  width: 1.325rem;
+  height: 1.325rem;
+  padding: 0.25rem;
+  top: -55%;
+  right: -30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .icon-badge span {
+    font-size: 0.675rem;
+    width: 1.325rem;
+    height: 1.325rem;
+    padding: 0.25rem;
+    top: -55%;
+    right: -70%;
+  }
+}
