@@ -212,6 +212,111 @@ label {
   height: 4rem;
 }
 
+/* Button styling */
+
+.btn {
+  width: max-content;
+  height: max-content;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-icon {
+  padding: 0.25rem;
+}
+
+.btn-action {
+  background-color: var(--action);
+  color: var(--white);
+}
+
+.btn-action:hover {
+  background-color: var(--action-dark);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-dark);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}
+.outline-primary {
+  background-color: var(--white);
+  color: var(--primary-dark);
+  border: 1.5px solid var(--primary-dark);
+}
+
+.outline-secondary {
+  background-color: var(--white);
+  color: var(--secondary-dark);
+  border: 1.5px solid var(--secondary-dark);
+}
+.outline-action {
+  background-color: var(--white);
+  color: var(--action-dark);
+  border: 1.5px solid var(--action-dark);
+}
+
+.outline:hover {
+  color: var(--white);
+}
+
+/* Icons styling  */
+
+.fa-heart {
+  color: var(--danger);
+}
+
+.wishlist {
+  color: var(--secondary-light);
+}
+
+.cart {
+  color: var(--secondary);
+}
+
+.cart:hover {
+  color: var(--secondary-dark);
+}
+
+.trash,
+.close {
+  color: var(--danger);
+}
+
+.trash:hover,
+.close:hover {
+  color: var(--danger-dark);
+  background-color: var(--danger-lightest);
+}
+
+.close-filled {
+  padding: 0.25rem;
+  border: 1px solid var(--white);
+  background-color: var(--danger);
+  color: var(--white);
+  border-radius: 0.25rem;
+}
+.close-filled:hover {
+  color: var(--white);
+  background-color: var(--danger-dark);
+}
+
 /* positions */
 
 .position-relative {
