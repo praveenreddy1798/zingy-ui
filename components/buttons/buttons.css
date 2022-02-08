@@ -1,0 +1,80 @@
+.btn-success {
+  background-color: var(--success);
+  color: var(--white);
+}
+
+.btn-success:hover {
+  background-color: var(--success-dark);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  color: var(--white);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-dark);
+}
+
+.btn-warning {
+  background-color: var(--warning);
+  color: var(--black);
+}
+
+.btn-warning:hover {
+  background-color: var(--warning-dark);
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+.outline-success {
+  background-color: var(--white);
+  color: var(--success-dark);
+  border: 1.5px solid var(--success-dark);
+}
+.outline-danger {
+  background-color: var(--white);
+  color: var(--danger-dark);
+  border: 1.5px solid var(--danger-dark);
+}
+.outline-warning {
+  background-color: var(--white);
+  color: var(--warning-dark);
+  border: 1.5px solid var(--warning-dark);
+}
+
+.link {
+  color: var(--action);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.cart {
+  color: var(--secondary-light);
+}
+
+.cart:hover {
+  color: var(--secondary-dark);
+}
+
+.close-bordered {
+  padding: 0.25rem;
+  border: 1px solid var(--danger);
+  border-radius: 0.25rem;
+}
+
+.btn-floating {
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: var(--primary);
+  color: var(--white);
+  font-size: 1.75rem;
+}
+
+.btn-floating:hover {
+  background-color: var(--primary-dark);
+}

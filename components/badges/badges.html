@@ -5,10 +5,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../../utils.css" />
-    <link rel="stylesheet" href="./alerts.css" />
+    <link rel="stylesheet" href="../../utils.css" />
+    <link rel="stylesheet" href="./badges.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <title>Zingy UI | Alerts</title>
+    <title>Zingy UI | Badges</title>
 </head>
 
 <body>
@@ -47,10 +47,10 @@
                 <a href="/components/avatar/avatar.html">
                     <li>Avatar</li>
                 </a>
-                <a class="active-sidebar-item" href="/components/alerts/alerts.html">
+                <a href="/components/alerts/alerts.html">
                     <li>Alerts</li>
                 </a>
-                <a href="/components/badges/badges.html">
+                <a class="active-sidebar-item" href="/components/badges/badges.html">
                     <li>Badges</li>
                 </a>
                 <a href="/components/buttons/buttons.html">
@@ -68,45 +68,43 @@
             </ul>
         </div>
 
-        <!-- Alerts -->
+        <!-- Badges -->
         <main class="main-section mg-md">
-            <h1>Alerts</h1>
-            <p class="regular-text mg-t-xsm">
-                Alerts are usually used to inform the user about the status of click events.
-            </p>
-            <div class="carbon-container flex-vertical row-gap-2 mg-lg">
-                <!-- Primary Information Alert -->
-                <div class="alert alert-primary">
-                    <i class="fa fa-info fa-2x"></i>
-                    <p class="small-text semi-bold">Primary Information Message Alert</p>
-                </div>
-
-                <!-- Secondary Information Alert -->
-                <div class="alert alert-secondary">
-                    <i class="fa fa-info fa-2x"></i>
-                    <p class="small-text semi-bold">Secondary Information Message Alert</p>
-                </div>
-
-                <!-- Success Alert -->
-                <div class="alert alert-success">
-                    <i class="fa fa-check-circle fa-2x"></i>
-                    <p class="small-text semi-bold">Success Message Alert</p>
-                </div>
-
-                <!-- Danger Alert -->
-                <div class="alert alert-danger">
-                    <i class="fa fa-exclamation-triangle fa-2x"></i>
-                    <p class="small-text semi-bold">Error Message Alert</p>
-                </div>
-
-                <!-- Warning Alert -->
-                <div class="alert alert-warning">
-                    <i class="fa fa-exclamation-circle fa-2x"></i>
-                    <p class="small-text semi-bold">Warning Message Alert</p>
+            <h1>Badges</h1>
+            <h3 class="mg-t-xsm">
+                Avatar Badge
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Avatar Badge -->
+                <div class="badge-container avatar-badge">
+                    <img src="../../assets/profile.jpg" alt="avatar" class="avatar avatar-l" />
+                    <span class="rounded">1</span>
                 </div>
             </div>
             <div class="flex-evenly mg-t-lg">
-                <iframe src="https://carbon.now.sh/embed/zQ4LrehE7sU805leyRX3"
+                <iframe src="https://carbon.now.sh/embed/a7ywQ74MK3MjdCbhkoxW"
+                    style="width: 100%; height: 220px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">
+                Icon Badges
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Wishlist Badge -->
+                <div class="badge-container icon-badge">
+                    <button class="wishlist"><i class="fa fa-heart-o fa-2x"></i></button>
+                    <span class="rounded">1</span>
+                </div>
+
+                <!-- Shopping Cart Badge -->
+                <div class="badge-container icon-badge">
+                    <button><i class="fa fa-shopping-cart fa-2x cart"></i></button>
+                    <span class="rounded">1</span>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/uZkBu3wNvrMdS2ihuD45"
                     style="width: 100%; height: max-content; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
