@@ -1,0 +1,24 @@
+.avatar-sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avatar-md {
+  width: 3rem;
+  height: 3rem;
+}
+
+.avatar-xlg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.avatar-xxlg {
+  width: 6rem;
+  height: 6rem;
+}
+
+.avatar-container {
+  border: 1px solid var(--light-grey);
+  padding: 2rem;
+}
