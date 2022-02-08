@@ -40,7 +40,13 @@ iframe {
   object-fit: cover;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   html {
     font-size: 62.5%;
   }

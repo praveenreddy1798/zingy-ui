@@ -393,6 +393,7 @@ label {
 
   .sidebar-items {
     align-items: center;
+    text-align: center;
   }
 
   .sidebar ul a {
@@ -400,7 +401,7 @@ label {
   }
 
   .sidebar ul a > * {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 
   .main-section {
