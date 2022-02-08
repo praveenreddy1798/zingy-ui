@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../utils.css" />
+    <link rel="stylesheet" href="./cards.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Cards</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+
+        <!-- Navbar -->
+        <nav class="navbar pd-xsm">
+            <ul class="flex-between">
+                <div class="nav-left flex-evenly">
+                    <a href="/home/index.html">
+                        <li>Zingy UI</li>
+                    </a>
+                    <a href="/components/avatar/avatar.html">
+                        <li>Docs</li>
+                    </a>
+                </div>
+                <div class="nav-right flex-evenly">
+                    <a href="https://github.com/praveenreddy1798"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/praveen1798"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/praveen-kumar-d-06b545168/"><i class="fa fa-linkedin fa-2x"
+                            aria-hidden="true"></i></a>|
+                </div>
+                <div class="mobile-menu flex-evenly align-center">
+                    <button class="btn hamburger mobile-item bg-primary white-color"><i
+                            class="fa fa-bars fa-2x h-100"></i></button>
+                    <button class="btn hamburger-close mobile-item bg-primary white-color"><i
+                            class="fa fa-close fa-2x h-100"></i></button>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul class="sidebar-items flex-vertical">
+                <a href="/components/avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="/components/alerts/alerts.html">
+                    <li>Alerts</li>
+                </a>
+                <a href="/components/badges/badges.html">
+                    <li>Badges</li>
+                </a>
+                <a href="/components/buttons/buttons.html">
+                    <li>Buttons</li>
+                </a>
+                <a class="active-sidebar-item" href="/components/cards/cards.html">
+                    <li>Cards</li>
+                </a>
+                <a href="/components/responsive-images/responsive-images.html">
+                    <li>Responsive Images</li>
+                </a>
+                <a href="/components/input/input.html">
+                    <li>Input</li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Cards -->
+        <main class="main-section mg-md">
+            <h1>Cards</h1>
+            <h3 class="mg-t-xsm">
+                Vertical Card
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Vertical Card -->
+                <div class='card'>
+                    <div class="card-image-container position-relative flex-evenly">
+                        <img class="card-image mg-t-xlg" src="../../assets/product.png" alt="product-image">
+                        <button class="btn btn-icon btn-icon-card position-absolute wishlist rounded flex-center">
+                            <i class="fa fa-heart fa-2x"></i></button>
+                    </div>
+                    <div class="flex-vertical mg-sm row-gap-p5 align-center">
+                        <h4 class="regular">Men Premium Jacket</h4>
+                        <h3 class="bold">₹2000</h3>
+                    </div>
+                    <button class="btn btn-action w-100">Go to Cart</button>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/ylTMISXzfYTvxxOO898k"
+                    style="width: 100%; height: 388px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="mg-t-xsm">
+                Horizontal Card with Shadow
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Horizontal Card with Shadow -->
+                <div class='card card-shadow horizontal-card flex'>
+                    <div class="card-image-container position-relative flex-evenly">
+                        <img class="card-image" src="../../assets/product.png" alt="product-image">
+                    </div>
+                    <div class="flex-grow-1 flex-vertical justify-between">
+                        <div class="flex-vertical mg-lg row-gap-p5 ">
+                            <h3 class="regular">Men Premium Jacket</h3>
+                            <div class="flex">
+                                <h3 class="bold mg-r-sm">₹2000</h3>
+                                <h3 class="regular line-through muted">₹3000</h3>
+                            </div>
+                            <h3 class="bold secondary-color">50% off</h3>
+                        </div>
+                        <div class="actions flex-vertical mg-lg row-gap-1 mg-t-xlg">
+                            <button class="btn btn-action w-100 flex-grow-1">Go to Cart</button>
+                            <button class="btn btn-secondary w-100 flex-grow-1">Remove from Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/drc1pSesXYRxYloBT64o"
+                    style="width: 100%; height: 542px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="mg-t-xsm">
+                Text Overlay Card
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Text Overlay Card -->
+                <div class='text-overlay-card position-relative flex'>
+                    <img class="text-overlay-image flex-grow-1" src="../../assets/text-overlay-image.png"
+                        alt="product-image">
+                    <div class="overlay-text-container position-absolute flex-center align-center">
+                        <h4 class="overlay-text secondary-color">Men</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/jf7NTsiC1nD2w011fBFr"
+                    style="width: 100%; height: 257px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="mg-t-xsm">
+                Card with Badge
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Card with Badge -->
+                <div class='card'>
+                    <div class="card-image-container position-relative flex-evenly">
+                        <img class="card-image mg-t-xlg" src="../../assets/product.png" alt="product-image">
+                        <button class="btn btn-icon btn-icon-card position-absolute wishlist rounded flex-center">
+                            <i class="fa fa-heart fa-2x"></i></button>
+                        <h4 class="card-badge position-absolute">Sale</h4>
+                    </div>
+                    <div class="flex-vertical mg-sm row-gap-p5 align-center">
+                        <h4 class="regular">Men Premium Jacket</h4>
+                        <h3 class="bold">₹2000</h3>
+                    </div>
+                    <button class="btn btn-action w-100">Go to Cart</button>
+                </div>
+
+                <div class='card'>
+                    <div class="card-image-container position-relative flex-evenly">
+                        <img class="card-image mg-t-xlg" src="../../assets/product.png" alt="product-image">
+                        <button class="btn btn-icon btn-icon-card position-absolute wishlist rounded flex-center">
+                            <i class="fa fa-heart-o fa-2x"></i></button>
+                        <h4 class="card-badge position-absolute">New</h4>
+                    </div>
+                    <div class="flex-vertical mg-sm row-gap-p5 align-center">
+                        <h4 class="regular">Men Premium Jacket</h4>
+                        <h3 class="bold">₹2000</h3>
+                    </div>
+                    <button class="btn btn-secondary w-100">Add to Cart</button>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/vXFdgjnIR80czQknJJwY"
+                    style="width: 100%; height: 410px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">
+                Text only Card
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Text only Card -->
+                <div class='card text-only-card card-shadow mg-md'>
+                    <h3 class="mg-b-xxsm">Card Title</h3>
+                    <h4 class="secondary-color mg-b-xsm">Card Subtitle</h4>
+                    <p class="small-text mg-b-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis
+                        sint, eligendi quisquam alias
+                        praesentium repellat illo adipisci commodi laborum vero.</p>
+                    <button class="btn btn-primary w-max-content pd-xsm">Take me there</button>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/fos73mdtCRMIzN0Jyd3c"
+                    style="width: 100%; height: 301px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <h3 class="mg-t-xsm">
+                Card with dismiss on hover
+            </h3>
+            <div class="flex-evenly mg-xlg">
+                <!-- Card with dismiss on hover -->
+                <div class='card dismiss-card box-shadow position-relative'>
+                    <img class="dismiss-card-image" src="../../assets/nature.jpeg" alt="dismiss-card-image">
+                    <button class="btn btn-icon btn-icon-card position-absolute close-icon"><i
+                            class="fa fa-close close close-filled"></i></button>
+                    <div class="mg-sm">
+                        <h3 class="mg-b-xsm">Card Title</h3>
+                        <p class="small-text mg-b-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Officiis
+                            sint, eligendi quisquam alias
+                            praesentium repellat illo adipisci commodi laborum vero.</p>
+                        <button class="btn btn-primary w-max-content pd-xsm">Take me there</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/ejI7j1VVhnzD4zdy65Yx"
+                    style="width: 100%; height: 388px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+
+    <script src='../../index.js'></script>
+</body>
+
+</html>

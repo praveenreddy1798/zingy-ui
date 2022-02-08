@@ -1,0 +1,76 @@
+.card {
+  width: 18.75rem;
+  height: max-content;
+  cursor: pointer;
+}
+
+.card-shadow,
+.card:hover {
+  box-shadow: 13px 13px 21px -5px var(--box-shadow);
+}
+
+.horizontal-card {
+  width: max-content;
+}
+
+.text-overlay-card {
+  width: 17.875rem;
+  height: 8.75rem;
+}
+
+.text-only-card {
+  width: 20rem;
+  padding: 1rem;
+}
+
+.card-image-container {
+  width: 18.75rem;
+  height: 23.438rem;
+  background-color: var(--lynx-gray-dark);
+}
+
+.card-image {
+  width: 15.75rem;
+  height: max-content;
+}
+.dismiss-card-image {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.card-badge {
+  background-color: var(--action-dark);
+  color: var(--white);
+  top: 1rem;
+  left: 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn-icon-card {
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 1rem;
+  right: 1rem;
+}
+
+.btn-icon-card i {
+  font-size: 1.5em;
+}
+
+.dismiss-card .close-icon {
+  top: -0.25rem;
+  right: -0.325rem;
+  background: transparent;
+  opacity: 0;
+}
+
+.dismiss-card:hover .close-icon {
+  opacity: 1;
+}
+
+.overlay-text-container {
+  width: 100%;
+  height: 1.75rem;
+  background-color: var(--white);
+  align-self: center;
+}

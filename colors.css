@@ -39,6 +39,7 @@
   --border-grey: #e5e7eb;
   --border-input: #d0d0d0;
   --text-input: #afafaf;
+  --box-shadow: rgba(0, 0, 0, 0.3);
   color: var(--textgrey);
 }
 
