@@ -1,0 +1,36 @@
+.input {
+  width: 23.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--secondary-lighter);
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--secondary-dark);
+}
+
+.input:focus {
+  outline: none;
+  border: 1.5px solid var(--action);
+}
+
+.input-primary:focus {
+  border: 1.5px solid var(--primary-dark);
+}
+
+.input-secondary:focus {
+  border: 1.5px solid var(--secondary-dark);
+}
+
+.input-success:focus {
+  border: 1.5px solid var(--success);
+}
+
+.input-danger-border,
+.input-danger-border:focus,
+.input-danger:focus {
+  border: 1.5px solid var(--danger-dark);
+}
+
+.input-warning:focus {
+  border: 1.5px solid var(--warning-dark);
+}
