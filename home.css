@@ -9,6 +9,7 @@
 
 .landing-library-description {
   width: 45vw;
+  padding: 0.5rem;
 }
 
 .landing-image {
@@ -29,12 +30,12 @@ main {
 footer {
   width: 100%;
   padding: 1rem;
-  position: absolute;
   bottom: 0;
 }
 
 #installation {
-  padding-top: 5rem;
+  padding: 5rem 1.25rem;
+  height: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,7 +50,7 @@ footer {
 
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 80%;
+    font-size: 60%;
   }
   footer > * {
     font-size: 125%;
