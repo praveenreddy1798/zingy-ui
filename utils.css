@@ -5,15 +5,15 @@
 
 /* border-radius */
 
-.br-s {
+.border-radius-sm {
   border-radius: 0.313rem;
 }
 
-.br-m {
+.border-radius-md {
   border-radius: 0.625rem;
 }
 
-.br-l {
+.border-radius-lg {
   border-radius: 0.938rem;
 }
 
