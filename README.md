@@ -6,6 +6,7 @@ like never before.
 Focus on your logic, we got you covered on design.
 
 ## Application Links
+[Zingy UI Live](https://zingy-ui.netlify.app)
 
 ## Components
 
