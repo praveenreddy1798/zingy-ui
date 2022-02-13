@@ -39,6 +39,9 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  html {
+    font-size: 85%;
+  }
   .landing-image {
     display: none;
   }
@@ -50,7 +53,7 @@ footer {
 
 @media only screen and (max-width: 400px) {
   html {
-    font-size: 60%;
+    font-size: 65%;
   }
   footer > * {
     font-size: 125%;
