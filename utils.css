@@ -42,7 +42,6 @@ iframe {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: max-content auto;
   height: 100vh;
-  overflow-y: auto;
 }
 
 /* navbar */
@@ -77,11 +76,9 @@ iframe {
 
 .sidebar {
   border-right: 1px solid var(--light-grey);
-  top: 4rem;
-  min-height: 100%;
-  position: fixed;
+  margin-top: 4.5rem;
   grid-area: sidebar;
-  width: 20%;
+  overflow-y: auto;
 }
 
 .sidebar ul a {
@@ -90,7 +87,7 @@ iframe {
 
 .sidebar ul a > * {
   font-size: 1.125rem;
-  padding: 1.25rem;
+  padding: 1rem 1.25rem;
   letter-spacing: 0.05rem;
   font-weight: 500;
 }
@@ -108,6 +105,7 @@ iframe {
 .main-section {
   margin-top: 5rem;
   grid-area: main;
+  overflow-y: auto;
 }
 
 /* flexbox */
