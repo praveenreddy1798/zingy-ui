@@ -46,8 +46,6 @@
 }
 
 .price-datalist {
-  display: flex;
-  justify-content: space-between;
   color: var(--secondary-dark);
   padding: 1rem 0;
 }
