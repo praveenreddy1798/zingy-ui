@@ -72,6 +72,11 @@ iframe {
   color: var(--white);
 }
 
+.nav-wishlist,
+.nav-cart {
+  font-size: 2.5em;
+}
+
 /* sidebar */
 
 .sidebar {
@@ -670,5 +675,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
   .display-item-mobile {
     display: flex;
+  }
+  .nav-wishlist,
+  .nav-cart {
+    font-size: 2em;
   }
 }
