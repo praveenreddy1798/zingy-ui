@@ -40,8 +40,8 @@
   --border-grey: #e5e7eb;
   --border-input: #d0d0d0;
   --text-input: #afafaf;
-  --dark-blue: rgba(17, 24, 39, 1);
-  --box-shadow: rgba(0, 0, 0, 0.3);
+  --dark-blue: #111827ff;
+  --box-shadow: #0000004C;
   color: var(--textgrey);
 }
 

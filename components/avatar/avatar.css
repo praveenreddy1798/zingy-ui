@@ -17,8 +17,3 @@
   width: 6rem;
   height: 6rem;
 }
-
-.avatar-container {
-  border: 1px solid var(--light-grey);
-  padding: 2rem;
-}
