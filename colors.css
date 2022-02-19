@@ -3,6 +3,7 @@
   --primary-dark: #45198b;
   --primary-light: #7c3aed;
   --primary-lighter: #7230da;
+  --primary-lighter-1: #9675b8;
   --primary-lightest: #f5f3ff;
   --secondary: #9a9a9a;
   --secondary-dark-1: #393939;
@@ -39,13 +40,13 @@
   --border-grey: #e5e7eb;
   --border-input: #d0d0d0;
   --text-input: #afafaf;
-  --dark-blue: rgba(17,24,39,1);
+  --dark-blue: rgba(17, 24, 39, 1);
   --box-shadow: rgba(0, 0, 0, 0.3);
   color: var(--textgrey);
 }
 
 .muted {
-  color: var(--secondary-lighter);
+  color: var(--secondary-light);
 }
 
 .primary-color {
