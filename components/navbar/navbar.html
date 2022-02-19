@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../utils.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./navbar.css" />
+    <title>Navbar</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar pd-xsm">
+            <ul class="flex-between">
+                <div class="nav-left flex-evenly no-gap">
+                    <a href="/">
+                        <li>Zingy UI</li>
+                    </a>
+                    <a href="/components/avatar/avatar.html">
+                        <li>Docs</li>
+                    </a>
+                </div>
+                <div class="nav-right flex-evenly no-gap">
+                    <a href="https://github.com/praveenreddy1798"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/praveen1798"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/praveen-kumar-d-06b545168/"><i class="fa fa-linkedin fa-2x"
+                            aria-hidden="true"></i></a>|
+                </div>
+                <div class="mobile-menu flex-evenly align-center">
+                    <button class="btn hamburger mobile-item bg-primary white-color"><i
+                            class="fa fa-bars fa-2x h-100"></i></button>
+                    <button class="btn hamburger-close mobile-item bg-primary white-color"><i
+                            class="fa fa-close fa-2x h-100"></i></button>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul class="sidebar-items flex-vertical">
+                <a href="/components/avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="/components/alerts/alerts.html">
+                    <li>Alerts</li>
+                </a>
+                <a href="/components/badges/badges.html">
+                    <li>Badges</li>
+                </a>
+                <a href="/components/buttons/buttons.html">
+                    <li>Buttons</li>
+                </a>
+                <a href="/components/cards/cards.html">
+                    <li>Cards</li>
+                </a>
+                <a href="/components/responsive-images/responsive-images.html">
+                    <li>Responsive Images</li>
+                </a>
+                <a href="/components/input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="/components/typography/typography.html">
+                    <li>Typography</li>
+                </a>
+                <a href="/components/lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a class="active-sidebar-item" href="/components/navbar/navbar.html">
+                    <li>Navbar</li>
+                </a>
+                <a href="/components/simplified-grid/simplified-grid.html">
+                    <li>Simplified Grid</li>
+                </a>
+                <a href="/components/modals/modals.html">
+                    <li>Modals</li>
+                </a>
+                <a href="/components/other-utilities/other-utilities.html">
+                    <li>Other Utilities</li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Navbar -->
+        <main class="main-section mg-md">
+            <h1>Navbar</h1>
+            <div class="flex-evenly mg-lg">
+                <nav class="nav w-100 bg-white flex-between no-wrap pd-xsm border-light-grey">
+                    <a class="navbar-left" href="#">
+                        <h3 class="pd-sm secondary-color nav-logo">Zingy Deal</h3>
+                    </a>
+                    <input class="input input-secondary border-radius-sm search" type="text" placeholder="search">
+                    <div class="flex-evenly pd-sm col-gap-2 navbar-right">
+                        <a href="#"><button class="btn btn-secondary">Login</button></a>
+                        <a href="#">
+                            <div class="badge-container icon-badge">
+                                <button class="wishlist"><i class="fa fa-heart-o fa-2x nav-wishlist"></i></button>
+                                <span class="rounded">1</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="badge-container icon-badge">
+                                <button><i class="fa fa-shopping-cart fa-2x cart nav-cart"></i></button>
+                                <span class="rounded">1</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="mobile-menu-navbar flex-evenly align-center">
+                        <button class="btn hamburger mobile-item secondary-color"><i
+                                class="fa fa-bars fa-2x h-100"></i></button>
+                        <button class="btn hamburger-close mobile-item secondary-color"><i
+                                class="fa fa-close fa-2x h-100"></i></button>
+                    </div>
+                </nav>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/G7qbBbmWGaUgQCHcbGE9"
+                    style="width: 100%; height: 651px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+    <script src='../../index.js'></script>
+</body>
+
+</html>
