@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../utils.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./modals.css" />
+    <title>Modals</title>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- Navbar -->
+        <nav class="navbar pd-xsm">
+            <ul class="flex-between">
+                <div class="nav-left flex-evenly no-gap">
+                    <a href="/">
+                        <li>Zingy UI</li>
+                    </a>
+                    <a href="/components/avatar/avatar.html">
+                        <li>Docs</li>
+                    </a>
+                </div>
+                <div class="nav-right flex-evenly no-gap">
+                    <a href="https://github.com/praveenreddy1798"><i class="fa fa-github fa-2x"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/praveen1798"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/praveen-kumar-d-06b545168/"><i class="fa fa-linkedin fa-2x"
+                            aria-hidden="true"></i></a>|
+                </div>
+                <div class="mobile-menu flex-evenly align-center">
+                    <button class="btn hamburger mobile-item bg-primary white-color"><i
+                            class="fa fa-bars fa-2x h-100"></i></button>
+                    <button class="btn hamburger-close mobile-item bg-primary white-color"><i
+                            class="fa fa-close fa-2x h-100"></i></button>
+                </div>
+            </ul>
+        </nav>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <ul class="sidebar-items flex-vertical">
+                <a href="/components/avatar/avatar.html">
+                    <li>Avatar</li>
+                </a>
+                <a href="/components/alerts/alerts.html">
+                    <li>Alerts</li>
+                </a>
+                <a href="/components/badges/badges.html">
+                    <li>Badges</li>
+                </a>
+                <a href="/components/buttons/buttons.html">
+                    <li>Buttons</li>
+                </a>
+                <a href="/components/cards/cards.html">
+                    <li>Cards</li>
+                </a>
+                <a href="/components/responsive-images/responsive-images.html">
+                    <li>Responsive Images</li>
+                </a>
+                <a href="/components/input/input.html">
+                    <li>Input</li>
+                </a>
+                <a href="/components/typography/typography.html">
+                    <li>Typography</li>
+                </a>
+                <a href="/components/lists/lists.html">
+                    <li>Lists</li>
+                </a>
+                <a href="/components/navbar/navbar.html">
+                    <li>Navbar</li>
+                </a>
+                <a href="/components/simplified-grid/simplified-grid.html">
+                    <li>Simplified Grid</li>
+                </a>
+                <a class="active-sidebar-item" href="/components/modals/modals.html">
+                    <li>Modals</li>
+                </a>
+                <a href="/components/other-utilities/other-utilities.html">
+                    <li>Other Utilities</li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- Modals -->
+        <main class="main-section mg-md">
+            <h1>Modals</h1>
+            <h3 class="mg-t-xsm">Regular Modal</h3>
+            <div class="flex-evenly mg-lg">
+                <div class="modal-container border-secondary pd-sm">
+                    <h3 class="regular-dark black-color">Modal Heading</h3>
+                    <p class="regular-text mg-t-sm">Modal Body Content</p>
+                    <div class="flex gap-1 mg-t-xlg justify-end">
+                        <button class="btn btn-secondary outline outline-secondary border-radius-sm">Secondary</button>
+                        <button class="btn btn-primary border-radius-sm">Primary</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/N7KA48rkvrWmDTEvI1Dp"
+                    style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h3 class="mg-t-xsm">Delete Modal</h3>
+            <div class="flex-evenly mg-lg">
+                <div class="modal-container border-secondary pd-sm">
+                    <h3 class="regular-dark black-color">Are you sure?</h3>
+                    <p class="regular-text mg-t-sm">Deleting this will delete the item forever</p>
+                    <div class="flex gap-1 mg-t-xlg justify-end">
+                        <button class="btn btn-secondary outline outline-secondary border-radius-sm">Cancel</button>
+                        <button class="btn btn-danger border-radius-sm">Delete</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-evenly mg-t-lg">
+                <iframe src="https://carbon.now.sh/embed/Dl3fNHw8Lyye0ZnzXRHl"
+                    style="width: 100%; height: 279px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+    <script src='../../index.js'></script>
+</body>
+
+</html>
