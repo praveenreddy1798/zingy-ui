@@ -17,3 +17,12 @@ Focus on your logic, we got you covered on design.
 - Cards
 - Responsive Images
 - Input
+- Typography
+- Lists
+- Navbar
+- Simplified Grid
+- Modals
+- Other Utilities
+  - Toast
+  - Rating
+  - Slider
