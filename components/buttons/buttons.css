@@ -7,15 +7,6 @@
   background-color: var(--success-dark);
 }
 
-.btn-danger {
-  background-color: var(--danger);
-  color: var(--white);
-}
-
-.btn-danger:hover {
-  background-color: var(--danger-dark);
-}
-
 .btn-warning {
   background-color: var(--warning);
   color: var(--black);
