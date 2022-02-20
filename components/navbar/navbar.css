@@ -2,6 +2,11 @@
   display: none;
 }
 
+.nav-wishlist,
+.nav-cart {
+  font-size: 2.5em;
+}
+
 @media only screen and (max-width: 1024px) {
   .navbar-right {
     display: none;
